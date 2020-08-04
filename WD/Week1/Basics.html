@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> <!-- meta has no closing tag! -->
+        <title>
+            HTML Basics -> Every HTML document must have a title!
+        </title>
+    </head>
+    <body>
+        <section id="section1"> 
+            <p>
+                Header:
+            </p>
+            <header>
+                Header -> Header info, like logos.
+                May contain navigation.
+                <nav>
+                    Nav -> Navigation.
+                    Contains links to different parts of the web site
+                </nav>
+            </header>
+            <h1>
+                This is the Main Heading.
+            </h1>
+            <h2>
+                Subheading 2.
+            </h2>
+            <h3>
+                Subheading 3.
+            </h3>
+            <h4>
+                Subheading 4.
+            </h4>
+            <h5>
+                Subheading 5.
+            </h5>
+            <h6>
+                Subheading 6.
+            </h6>
+            <p>
+                This is a paragraph.
+            </p>
+        </section>
+        <section id="section2"> 
+            <p>
+                Div and Span:
+            </p>
+            <div>
+                DIVISION 1 -> Flow content
+            </div>
+            <div>
+                DIVISION 2 -> Flow content
+            </div>
+            <span>
+                SPAN 1 -> Phrasing content...
+                This "span" is in it's on line because the div above it pushes it to a new line.
+            </span>
+            <div>
+                DIVISION 3 -> Flow content 
+                <span>
+                    SPAN 2 -> Phrasing content...
+                    This "span" is inside DIVISION 3, so it's in the same line as it.
+                </span>
+            </div>
+        </section>
+        <section id="section3"> 
+            <p>
+                Section and Article:
+            </p>
+            <section>
+                Section 1
+                <article>
+                    Article 1
+                </article>
+                <article>
+                    Article 2
+                </article>
+                <article>
+                    Article 3
+                </article>
+            </section>
+            <section>
+                Section 2
+                <article>
+                    Article 4
+                </article>
+                <article>
+                    Article 5
+                </article>
+                <article>
+                    Article 6
+                </article>
+            </section>
+        </section>
+        <section id="section4"> 
+            <p>
+                Aside and Footer:
+            </p>
+            <aside>
+                Aside -> Some info related to the main content, i.e., related posts.
+            </aside>
+            <footer>
+                Footer -> Footer of the page.
+            </footer>
+        </section>
+        <section id="section5"> 
+            <p>
+                Lists:
+            </p>
+            This is an unorderd list:
+            <ul>
+                <li>
+                    UNORDERED LIST ITEM 1 -> main list
+                </li>
+                <li>
+                    UNORDERED LIST ITEM 2 -> main list
+                </li>
+                <li>
+                    UNORDERED LIST ITEM 3 -> main list
+                    <ul>
+                        <li>
+                            UNORDERED LIST ITEM 4 -> sub-list
+                        </li>
+                        <li>
+                            UNORDERED LIST ITEM 5 -> sub-list
+                        </li>
+                    </ul>
+                    <li>
+                        UNORDERED LIST ITEM 6 -> main list
+                    </li>
+                </li>
+            </ul>
+            This is an ordered list:
+            <ol>
+                <li>
+                    ORDERED LIST ITEM 1 -> main list
+                </li>
+                <li>
+                    ORDERED LIST ITEM 2 -> main list
+                </li>
+                <li>
+                    ORDERED LIST ITEM 3 -> main list
+                    <ol>
+                        <li>
+                            ORDERED LIST ITEM 4 -> sub-list
+                        </li>
+                        <li>
+                            ORDERED LIST ITEM 5 -> sub-list
+                        </li>
+                    </ol>
+                    <li>
+                        ORDERED LIST ITEM 6 -> main list
+                    </li>
+                </li>
+            </ol>
+        </section>
+        <section id="section6"> 
+            <p>
+                Character Entity References:
+            </p>
+            Less than: &lt;
+            Ampersand: &amp;
+            Greater than: &gt;
+            Copyriright: &copy;
+            Quotes: &quot; <!-- use this for different encryptions. -->
+            Non-breaking space: &nbsp; <!-- use this instead of spaces. -->
+        </section>
+        <section id="section7"> 
+            <p>
+                Links:
+            </p>
+            Internal links:
+            <a herf="same-directory.html" title="same dir link">
+                Linking to a file in the same directory.
+            </a>
+            <a herf="same-directory.html" title="same dir link">
+                <div>
+                    DIV linking to a file in the same directory.
+                </div>
+            </a>
+            External links:
+            <a href="http://www.facebook.com/CourseraWebDev" target="_blank" title="Like Our Page!">
+                Course Facebook Page
+            </a>
+            <p></p>
+            Fragment identifier:
+            <ul>
+                <li>
+                    <a href="#section1">
+                        #section1
+                    </a>
+                </li>
+                <li>
+                    <a href="#section2">
+                        #section2
+                    </a>
+                </li>
+                <li>
+                    <a href="#section3">
+                        #section3
+                    </a>
+                </li>
+                <li>
+                    <a href="#section4">
+                        #section4
+                    </a>
+                </li>
+                <li>
+                    <a href="#section5">
+                        #section5
+                    </a>
+                </li>
+                <li>
+                    <a href="#section6">
+                        #section6
+                    </a>
+                </li>
+                <li>
+                    <a href="#section7">
+                        #section7
+                    </a>
+                </li>
+                <li>
+                    <a href="#section8">
+                        #section8
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="section8"> 
+            <p>
+                Images:
+            </p>
+            <p>
+                Internal link:
+                <img src="picture-with-quote.jpg" width="400" height="235" alt="Picture with a quote">
+                "Quote"
+            </p>
+            <p>
+                External link:
+                <img src="https://seyler.ekstat.com/img/max/800/5/5KmtLt5JhbQTwS25-636973343663166569.jpg" width="400" height="208">
+            </p>
+        </section>
+    </body>
+</html>
