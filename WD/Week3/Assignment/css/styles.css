@@ -1,0 +1,84 @@
+/********** BODY **********/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: khaki;
+}
+/********** END BODY **********/
+
+/********** HEADER **********/
+#header-nav {
+    background-color: maroon;
+    border-radius: 0;
+    border: 0;
+    padding: 10px 5px 10px;
+}
+
+.navbar-brand h1 {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-right: 20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid khaki;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: khaki;
+    text-align: center;
+    font-size: 150%;
+}
+
+#nav-list a:hover {
+    background: khaki;
+    color: maroon;
+}
+/********** END HEADER **********/
+
+/********** MAIN **********/
+#main-content h2 {
+    margin: -5px 0 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#main-content h3 {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#home-section {
+    margin: 10px 5px 10px;
+    background-color: grey;
+    box-shadow: 3px 3px 3px black;
+    color: whitesmoke;
+}
+
+#main {
+    margin: -10px 15px 10px;
+}
+
+#main-content p {
+    padding: 5px 30px 5px;
+}
+/********** END MAIN **********/
